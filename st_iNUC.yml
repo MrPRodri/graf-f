@@ -1,0 +1,17 @@
+---
+anchors:
+  label-config: &label-config
+    separator: replace
+    units: bps
+    decimalPoints: 0
+    valueMappings:
+      - valueMax: 99999999999
+        text: ​
+      - valueMin: 0
+cellIdPreamble: cell-
+cells:
+  ISP_RATE:
+    dataRef: eth3:in
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
