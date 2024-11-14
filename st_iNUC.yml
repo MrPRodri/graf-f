@@ -2,10 +2,10 @@
 anchors:
   label-config: &label-config
     separator: replace
-    units: bps
-    decimalPoints: 0
+    units: none #bps
+ #   decimalPoints: 0
     valueMappings:
-      - valueMax: 99999999999
+      - valueMax: 10
         text: ​
       - valueMin: 0
 cellIdPreamble: cell-
