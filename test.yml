@@ -21,20 +21,13 @@ anchors:
     units: bps
     decimalPoints: 0
     valueMappings:
-      - valueMax: 199999
+      - valueMax: 99999999999
         text: ​
       - valueMin: 0
 cellIdPreamble: cell-
 cells:
-# spine1:e1-1:leaf1:e1-49:
-#   dataRef: oper-state:spine1:e1-1
-#   fillColor:
-#     thresholds: *thresholds-operstate
   ISP_RATE:
-    dataRef: irate(node_network_receive_bytes_total{device="eth3"}[$__rate_interval]) * 8 / 1e6
+    dataRef: "A"
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  prtest:
-    dataRef: irate(node_network_receive_bytes_total{device="eth1"}[$__rate_interval]) * 8 / 1e6
-    label: *label-config
