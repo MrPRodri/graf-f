@@ -27,7 +27,7 @@ anchors:
 cellIdPreamble: cell-
 cells:
   ISP_RATE:
-    dataRef: "A"
+    dataRef: "test"
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
