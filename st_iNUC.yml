@@ -4,10 +4,6 @@ anchors:
     separator: replace
     units: bps
     decimalPoints: 2
-    valueMappings:
-      - valueMax: 199999
-        text: ​
-      - valueMin: 200000
 cellIdPreamble: cell-
 cells:
   link_id:spine1:e1-1:leaf1:e1-49:
