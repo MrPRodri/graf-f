@@ -13,5 +13,3 @@ cells:
   link_id:leaf1:e1-49:spine1:e1-1:
     dataRef: eth3:in
     label: *label-config
-    strokeColor:
-      thresholds: *thresholds-traffic
