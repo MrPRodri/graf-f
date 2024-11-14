@@ -5,9 +5,9 @@ anchors:
     units: none #bps
     decimalPoints: 1
     valueMappings:
-      - valueMax: 10
+      - valueMax: 199999
         text: ​
-      - valueMin: 0
+      - valueMin: 200000
 cellIdPreamble: cell-
 cells:
   link_id:spine1:e1-1:leaf1:e1-49:
