@@ -11,5 +11,5 @@ anchors:
 cellIdPreamble: cell-
 cells:
   link_id:spine1:e1-1:leaf1:e1-49:
-    dataRef: eth3:in
+    dataRef: eth2:in
     label: *label-config
