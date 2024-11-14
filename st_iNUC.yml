@@ -3,7 +3,7 @@ anchors:
   label-config: &label-config
     separator: replace
     units: none #bps
- #   decimalPoints: 0
+    decimalPoints: 1
     valueMappings:
       - valueMax: 10
         text: ​
