@@ -7,6 +7,9 @@ anchors:
 cellIdPreamble: cell-
 cells:
  # link_id:spine1:e1-1:leaf1:e1-49:
-  ISP_RATE:
+  link:eth2:out:
+    dataRef: eth2:out
+    label: *label-config
+  link:eth2:in:
     dataRef: eth2:in
     label: *label-config
